@@ -12,12 +12,8 @@ type ExpressReceiver struct {
 	Mobile string
 }
 
-// ExpressPackage 快递包裹
-type ExpressPackage struct {
-	Length         float64
-	Width          float64
-	Height         float64
-	Weight         float64
+// ExpressDelivery 快递单
+type ExpressDelivery struct {
 	ExpressNo      string
 	ExpressCompany ExpressCompany
 }
